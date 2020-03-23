@@ -1,8 +1,8 @@
-package com.tencent.avengong.designpattern.ocp.handler
+package com.tencent.avengong.designpattern.principles.ocp.handler
 
-import com.tencent.avengong.designpattern.ocp.AlertBean
-import com.tencent.avengong.designpattern.ocp.AlertNotification
-import com.tencent.avengong.designpattern.ocp.AlertRule
+import com.tencent.avengong.designpattern.principles.ocp.AlertBean
+import com.tencent.avengong.designpattern.principles.ocp.AlertNotification
+import com.tencent.avengong.designpattern.principles.ocp.AlertRule
 
 abstract class AlertHnadler {
 

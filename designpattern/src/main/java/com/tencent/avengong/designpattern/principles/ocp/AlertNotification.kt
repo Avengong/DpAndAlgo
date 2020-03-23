@@ -1,4 +1,4 @@
-package com.tencent.avengong.designpattern.ocp
+package com.tencent.avengong.designpattern.principles.ocp
 
 import android.util.Log
 

@@ -1,8 +1,8 @@
-package com.tencent.avengong.designpattern.ocp
+package com.tencent.avengong.designpattern.principles.ocp
 
-import com.tencent.avengong.designpattern.ocp.handler.ErrorCountHandler
-import com.tencent.avengong.designpattern.ocp.handler.TimeOuntHandler
-import com.tencent.avengong.designpattern.ocp.handler.TpsHandler
+import com.tencent.avengong.designpattern.principles.ocp.handler.ErrorCountHandler
+import com.tencent.avengong.designpattern.principles.ocp.handler.TimeOuntHandler
+import com.tencent.avengong.designpattern.principles.ocp.handler.TpsHandler
 
 class AlertClient {
 
