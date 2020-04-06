@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("MyAsyncTask", "doAsyncTask   thread:${Thread.currentThread().name}")
 //        Thread (Runnable {
-//            Log.d("MyAsyncTask", "start   thread:${Thread.currentThread().name}")
+//            Log.d("MyAsyncTask", "start   thread:${Thread.currentThread().keyword}")
 //            for (i in 1 ..3){
 //                var masynTask= MyAsyncTask()
 //                masynTask.execute("www.bai.com","www.bai.com$i")
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
 //        } ).start()
 
 //        thread (start=true){
-//            Log.d("MyAsyncTask", "start   thread:${Thread.currentThread().name}")
+//            Log.d("MyAsyncTask", "start   thread:${Thread.currentThread().keyword}")
 //            for (i in 1 ..3){
 //                var masynTask= MyAsyncTask()
 //                masynTask.execute("www.bai.com","www.bai.com$i")
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 //        }
 
 //        Thread {
-//            Log.d("MyAsyncTask", "start   thread:${Thread.currentThread().name}")
+//            Log.d("MyAsyncTask", "start   thread:${Thread.currentThread().keyword}")
 //            for (i in 1 ..3){
 //                var masynTask= MyAsyncTask()
 //                masynTask.execute("www.bai.com","www.bai.com$i")
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
 //        object :Thread(){
 //            override fun run() {
 //
-//                Log.d("MyAsyncTask", "start   thread:${Thread.currentThread().name}")
+//                Log.d("MyAsyncTask", "start   thread:${Thread.currentThread().keyword}")
 //                for (i in 1 ..3){
 //                    var masynTask= MyAsyncTask()
 //                    masynTask.execute("www.bai.com","www.bai.com$i")
@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
 
             Log.d(
                 "MyAsyncTask",
-                "onPreExecute name: $s , pool:${AsyncTask.THREAD_POOL_EXECUTOR}, thread：${Thread.currentThread().name}"
+                "onPreExecute keyword: $s , pool:${AsyncTask.THREAD_POOL_EXECUTOR}, thread：${Thread.currentThread().name}"
             )
 
         }
